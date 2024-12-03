@@ -1,0 +1,103 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #dcdcdc;
+  cursor: not-allowed;
+}
+
+.prediction-results {
+  margin-top: 30px;
+  background-color: #e8f7e8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.prediction-results h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.prediction-results p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #333;
+}
+
+.error-message {
+  color: #ff6f61;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 20px;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
