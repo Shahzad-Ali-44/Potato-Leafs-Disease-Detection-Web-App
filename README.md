@@ -1,4 +1,4 @@
-# Potato Disease Detection Full Stack Web App Using CNN Model
+# AL Powered Potato Leafs Disease Detection Web App 
 
 This project is a **Potato Disease Detection System** developed using **React** for the front-end and **FastAPI** with a **Convolutional Neural Network (CNN)** for disease classification on the back-end. The system allows users to upload images of potato leaves and classifies them into different disease categories with an accuracy score.
 
@@ -56,13 +56,7 @@ Before you start, ensure you have the following installed on your machine:
    git clone https://github.com/Shahzad-Ali-44/Potato_disease_detection_react_app_using_CNN.git
    ```
 
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd Potato_disease_detection_react_app_using_CNN
-   ```
-
-3. **Install frontend dependencies**:
+2. **Install frontend dependencies**:
 
    Run the following command in the project root directory to install React dependencies:
 
@@ -70,7 +64,7 @@ Before you start, ensure you have the following installed on your machine:
    npm install
    ```
 
-4. **Install backend dependencies**:
+3. **Install backend dependencies**:
 
    Install the required Python dependencies for the backend by running:
 
@@ -83,7 +77,7 @@ Before you start, ensure you have the following installed on your machine:
 
 1. **Start the React development server**:
 
-   In the project directory, run the following command:
+   In the frontend directory, run the following command:
 
    ```bash
    npm start
@@ -93,15 +87,25 @@ Before you start, ensure you have the following installed on your machine:
 
 2. **Running the Backend (FastAPI)**:
 
-   To run the FastAPI server, open a new terminal window, navigate to the backend folder (if separate) and run:
+   In the backend directory, run the following command:
 
    ```bash
-   uvicorn main:app --reload
+   python main.py
    ```
    
    By default, FastAPI runs on port `8000`, so the backend will be available at `http://localhost:8000`.
 
 
-## License
+## 🤝 Contributing
 
-This project is open-source and available under the [MIT License](LICENSE).
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+- Dataset contributors for their valuable efforts.
+- TensorFlow and Keras for their robust deep learning frameworks.
+- Open-source community for tools and libraries enabling this work. 
