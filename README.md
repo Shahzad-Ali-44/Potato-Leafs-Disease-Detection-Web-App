@@ -1,4 +1,4 @@
-# AL Powered Potato Leafs Disease Detection Web App 
+# AI Powered Potato Leafs Disease Detection Web App 
 
 This project is a **Potato Disease Detection System** developed using **React** for the front-end and **FastAPI** with a **Convolutional Neural Network (CNN)** for disease classification on the back-end. The system allows users to upload images of potato leaves and classifies them into different disease categories with an accuracy score.
 
