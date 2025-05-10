@@ -53,7 +53,7 @@ Before you start, ensure you have the following installed on your machine:
    Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Shahzad-Ali-44/Potato_disease_detection_full_stack_web_app_using_CNN.git
+   git clone https://github.com/Shahzad-Ali-44/Potato-Leafs-Disease-Detection-Web-App.git
    ```
 
 2. **Install frontend dependencies**:
